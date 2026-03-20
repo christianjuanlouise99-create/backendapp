@@ -97,7 +97,7 @@ const HomePage = () => {
       {/* Navigation Bar */}
       <nav className="unauth-navbar">
         <div className="unauth-logo" onClick={() => handleNavClick('home')}>
-          <FontAwesomeIcon icon="robot" className="unauth-header-icon" /> YourApp
+          <FontAwesomeIcon icon="robot" className="unauth-header-icon" /> Enterprise
         </div>
         <ul className="unauth-nav-links">
           <li
