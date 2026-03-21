@@ -14,6 +14,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 // Add icons to the library
 library.add(fab, faRobot, faDatabase, faMagic, faCode, faMobileAlt);
 
+/** YouTube video ID only (from the URL: youtube.com/watch?v=THIS_PART) */
+const FEATURED_EPISODE_VIDEO_ID = 'Y5YnKG9ntqM';
+
 const HomePage = () => {
   // State for carousel
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -66,7 +69,7 @@ const HomePage = () => {
     {
       title: 'Introduction to Backend Development',
       description: 'Kickstart your journey by understanding the fundamentals of backend development.',
-      videoId: 'dQw4w9WgXcQ', // Replace with actual YouTube video ID
+      videoId: FEATURED_EPISODE_VIDEO_ID,
     },
   ];
 
