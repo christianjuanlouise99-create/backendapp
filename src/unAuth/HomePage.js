@@ -144,7 +144,7 @@ const HomePage = () => {
           </h1>
           <p>Leverage the power of AI to streamline your backend development process.</p>
           <Link to="/signup" className="unauth-cta-button">
-            Let's get started ☕
+            Sign Up
           </Link>
         </div>
       </header>
